@@ -1,13 +1,18 @@
 ; Mixamo Animation Fixer Installer Script
 #define MyAppName "Mixamo Animation Fixer"
 #define MyAppVersion "1.0.0"
-#define MyAppPublisher ""
+#define MyAppPublisher "Schizogonia"
+#define MyAppURL "https://github.com/Schizogonia/mixamo-ue-fix"
 #define MyAppExeName "MixamoAnimationFixer.exe"
 
 [Setup]
-AppId={A1B2C3D4-E5F6-7890-ABCD-EF1234567890}
+AppId={{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}
 AppName={#MyAppName}
 AppVersion={#MyAppVersion}
+AppPublisher={#MyAppPublisher}
+AppPublisherURL={#MyAppURL}
+AppSupportURL={#MyAppURL}
+AppUpdatesURL={#MyAppURL}/releases
 DefaultDirName={autopf}\{#MyAppName}
 DefaultGroupName={#MyAppName}
 AllowNoIcons=yes
