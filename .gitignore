@@ -1,0 +1,21 @@
+# Build
+dist/
+build/
+installer_output/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Config (user-specific)
+config.json
+
+# IDE
+.idea/
+.vscode/
+
+/Fixed_Animations
+scr_*.txt
+*.png
+!*app_screenshot.png
